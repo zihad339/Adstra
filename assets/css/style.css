@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+/* header part */
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: white;
+    align-items: center;
+}
+.menu-list, .login-button-list, .banner-container{ 
+    display: flex;
+}
+.menu-list, .login-button-list{
+    gap: 25px;
+}
+.menu-list li .at-btn{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #333;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.menu-list li .at-btn:hover{
+color: red;
+}
+.login-button-list .login-button .btn-login{
+    padding: 8px 30px;
+    border-radius: 5px;
+    color: black;
+}
+.login-button-list .login-button a:hover{
+   border-color: white;
+   border: 1px black solid;
+}
+.login-button-list .sing-button a{
+    background-color:red;
+    border-radius: 5px;
+    padding: 8px 30px;
+    color: white;
+}
+.login-button-list .sing-button a:hover{
+    background-color:black;
+    color: white;
+}
+ /* bannar part */
+ .bannar{
+    background-color: red;
+    padding-bottom: 100px; 
+}
+.banner-container{
+    margin:  auto ;
+    max-width: 1100px;
+    justify-content: space-between;
+}
+
+.banner-text h1{
+    font-size: 70px;
+    color: white;
+    margin-top: 247px;
+    margin-bottom: 20px;
+}
+
+.banner-text p{
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 56px;
+}
+    
+.banner-container img{
+    width: 530px;
+    height: 588px;
+    margin-top: 105px;
+}
+.button{
+    display: flex;
+    gap: 40px;
+    text-transform: uppercase;
+}
+.btn{
+    background-color: white;
+    padding: 15px 50px;
+    color: black;
+    border-radius: 5px;
+}
+/* slider part */
+.slider{
+    background-color:white; 
+    padding: 60px; 
+}
+.slider-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+}
+.flex-container {
+    display: flex;
+    gap: 50px;
+}
+/* benefits part */
+.benefits-container{
+background-color: #efefef;
+padding: 60px;
+
+}
+.heading-h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    padding-bottom: 60px;
+}
+.span-h2{
+    color: red;
+}
+.benefits-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    margin: 0 auto;
+    gap: 30px;
+}
+.p-benefits{
+    margin-bottom: 30px;
+}
+.btn-bn{
+    background-color: black;
+    padding: 10px 50px;
+    color: white;
+    border-radius: 5px;
+}
+.btn-bn:hover{
+    background-color: red;
+}
+/* Area part */
+.row{
+    background-color:white;
+    padding: 30px;
+
+}
+.justify-content{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 0 auto;
+    gap: 30px;
+}
+.at-h2-margin{
+    color: #333;
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 75px;
+
+    
+}
+.pe-4{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 65px;
+    margin-bottom: 40px;
+}
+.btn-ar{
+    background-color: black;
+    padding: 10px 50px;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.btn-ar:hover{
+    background-color: red;
+}
+.at-h2-margin-center{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 40px;
+    font-weight:bold;
+}
+
+.nav-tab{
+    width: 500px;
+    margin: auto;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.nav-tab .advertisers{
+    border: 2px solid gray;
+    border-radius: 30px;
+    padding: 15px 100px;
+    color: black;
+    background-color: #fff;
+}
+.publishers{
+    padding: 15px 30px;
+    color: #fff;
+    background-color: transparent;
+    border: 0;
+}
+/* Popunder */
+.Popunder, .Social-Bar, .In-Pager{
+    width: 1260px;
+    background-color:#EFEFEF;
+    margin: 0 auto;
+}
+.Popunder-container, .Social-Bar-container, .In-Page-container, .Interstitials-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px 30px 80px;
+}
+.font-h3{
+  padding-top: 12px;
+  font-size: 32px;
+  color:#333333;
+  font-weight: bold;
+}
+.font-p{
+    color: #747474;
+    line-height: 35.2px;  
+}
+.advertisers-item-list{
+    padding-bottom: 8px; 
+}
+
+.Popunder-button{
+    display: flex;
+    column-gap: 40px;
+}
+.li1{
+    padding-top: 25px; 
+    padding-bottom: 35px;
+}
+.li2{
+    padding-bottom: 35px;
+}
+.Live-demo{
+    padding: 10px 45px;
+    color: white;
+    border-radius: 5px;
+    background-color: red;
+    border: none;
+}
+.Live-demo:hover{
+    background-color: black;
+    border: none;
+}
+.Learn-more{
+    background-color: white;
+    padding: 10px 45px;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid rgb(235, 232, 232);
+}
+.Learn-more:hover{
+border: 1px solid black;
+}
+.row-img{
+    width: 272px;
+}
+/* Social Bar part */
+.Social-Bar, .Interstitials{
+    width: 1260px;
+    background-color:white;
+    margin-bottom: 15px;
+}
+
+/* Extra */
+.user-part .login-button-list .login-button{
+    position: relative;
+}
+.user-part .login-button-list .login-button ul{
+    position: absolute;
+}
+
+.user-part ul li:hover ul{
+    display: block;
+
+}
+
+/* sub-menu */
+.sub-menu{
+    margin-top: 50px;
+    background-color: #EFEFEF;
+    padding: 10px;
+    width: 150px;
+    transition: all 0.3s;
+    opacity: 0;
+}
+.user-part .login-button-list .login-button:hover .sub-menu{
+    margin-top: 28px;
+    opacity: 1;
+} 
