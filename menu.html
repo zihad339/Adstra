@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .mian-nav >  ul{
+            display: flex;
+            gap: 20px;
+        }
+        .mian-nav   ul{
+           list-style: none;
+        }
+        .mian-nav li ul{
+           visibility: hidden;
+           opacity: 0;
+           transition: all .4s;
+        }
+        .mian-nav li a{
+            text-decoration: none;
+        }
+        
+        .mian-nav li{
+            position: relative;
+        }
+        .mian-nav li ul{
+            position: absolute;
+            top: 40px;
+        }
+        .mian-nav li:hover > ul{
+           visibility: visible;
+           opacity: 1;
+            top: 15px;
+        }
+        .mian-nav li li ul{
+            right: calc(100% + 10px);
+        }
+        .mian-nav li ul{
+            background-color: red;
+            padding: 20px;
+        }
+        .mian-nav li li a{
+            color: #fff;
+        }
+        .mian-nav  li a{
+            white-space: pre;
+        }
+    </style>
+</head>
+<body>
+    <nav class="mian-nav">
+
+
+         <ul>
+
+             <li><a href="">Home</a></li>
+             <li><a href="">Home 2</a>
+             
+                <ul>
+
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Home 2</a></li>
+                    <li><a href="">Home4</a></li>
+                    <li><a href="">Home 5</a></li>
+                    <li><a href="">Home 6</a>
+                     
+                        <ul>
+
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Home 2</a></li>
+                            <li><a href="">Home4</a></li>
+                            <li><a href="">Home 5</a></li>
+                            <li><a href="">Home 6</a></li>
+                            <li><a href="">Home 7</a></li>
+                            <li><a href="">Home 8</a></li>
+                            <li><a href="">Home 9</a></li>
+               
+                        </ul>
+                    
+                    </li>
+                    <li><a href="">Home 7</a></li>
+                    <li><a href="">Home 8</a></li>
+                    <li><a href="">Home 9</a></li>
+       
+                </ul>
+            
+            </li>
+             <li><a href="">Home4</a></li>
+             <li><a href="">Home 5</a></li>
+             <li><a href="">Home 6</a></li>
+             <li><a href="">Home 7</a></li>
+             <li><a href="">Home 8</a></li>
+             <li><a href="">Home 9</a></li>
+
+         </ul>
+
+
+    </nav>
+    
+</body>
+</html>
